@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test NGParallel">
+
+  <test name="testxml3">
+  	<parameter name="browser"  value="chrome"/>
+  	<parameter name="url"  value="http://gmail.com"/>
+  	
+    <classes>
+      <class name="testnglearning.TestParallel"/>
+    </classes>
+  </test>
+  
+  <test name="testxml4">
+  	<parameter name="browser"  value="firefox"/>
+  	<parameter name="url"  value="http://google.com"/>
+  	
+    <classes>
+      <class name="testnglearning.TestParallel"/>
+    </classes>
+  </test>    
+</suite> <!-- Suite -->

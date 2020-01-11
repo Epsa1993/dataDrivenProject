@@ -1,0 +1,5 @@
+browser launch successfully
+browser launch
+type successfully
+click successfully
+quit 
